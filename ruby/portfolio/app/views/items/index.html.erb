@@ -1,0 +1,32 @@
+    <div id="header">
+      <a href="index.html" class="active">Home</a>
+      <a href="about.html">About</a>
+    </div>
+
+
+    <div class="container">
+      <!-- These are heading elements -->
+      <div id="intro">
+        <h1>Hi, my name is Tedi</h1>  
+        <p id="introText">I'm a developer living in Washington DC. <a href="about.html">Find out more about me.</a></p>
+      </div>
+      <div id="portfolio">
+
+         <% @items.each do |item| %>
+
+        
+        <div class="portfolio_piece">
+          <a href="about.html">
+            <%= image_tag item.image %>
+            <h3><%= item.name %></h3>
+          </a>
+        </div>
+      <% end %>
+
+        <div class="clearfix"></div>
+        
+      </div>
+    </div>
+
+
+<%= link_to 'New Item', new_item_path %>

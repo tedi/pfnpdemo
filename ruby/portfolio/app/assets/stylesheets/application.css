@@ -1,0 +1,143 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+h1 {
+	color: #000;
+}
+
+p {
+	color: blue;
+}
+
+.redtext {
+	color: red;
+	font-weight: bold;
+}
+
+.second {
+	color: green;
+}
+
+.greentext {
+	color: green;
+	font-weight: bold;
+}
+
+a {
+	color: red;
+}
+
+/*Intro section*/
+#intro {
+	color: yellow;
+}
+
+#intro h1 {
+	color: #225378;
+}
+
+#intro p{
+	color: #666;
+}
+/*end intro section*/
+
+
+/*This is header section*/
+body {
+	background-color: #F3FFE2;
+	margin: 0;
+}
+
+#header {
+	background-color: #225378;
+	padding: 10px;
+}
+
+#header a { 
+	color: #F3FFE2;
+}
+/*End of header section*/
+
+/*Portfolio section*/
+.portfolio_piece {
+	width: 96%;
+	margin: 10px 2%;
+	float: left;
+	transition: .5s all;
+}
+
+.portfolio_piece h3 {
+	background-color: #eb7f00;
+	color: #F3FFE2;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+.portfolio_piece img {
+	display: block;
+	width: 100%;
+}
+
+#portfolio {
+	background-color: #acf0f2;
+	padding: 10px;
+}
+
+/*target h3 when hovering over the hyperlink nested inside the portfolio piece*/
+.portfolio_piece a:hover h3 {
+	background-color: #F3FFE2;
+	color: #eb7f00;
+}
+
+.portfolio_piece a h3 {
+	transition: .5s all;
+}
+
+
+/*end portfolio section*/
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+
+
+
+@media (min-width: 700px) {
+	.portfolio_piece {
+		width: 46%;
+	}
+
+}
+
+@media (min-width: 960px) {
+	.portfolio_piece {
+		width: 21%;
+	}
+}
+
+
+
+
+
+
+
