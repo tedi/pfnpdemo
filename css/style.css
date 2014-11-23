@@ -1,0 +1,46 @@
+h1 {
+	color: #000;
+}
+
+p {
+	color: blue;
+}
+
+.redtext {
+	color: red;
+	font-weight: bold;
+}
+
+.second {
+	color: green;
+}
+
+#greentext {
+	color: green;
+	font-weight: bold;
+}
+
+a {
+	color: red;
+}
+
+#intro {
+	color: yellow;
+}
+
+#intro h1 {
+	color: yellow;
+}
+
+#intro p{
+	color: red;
+}
+
+
+
+
+
+
+
+
+
