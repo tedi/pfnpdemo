@@ -42,10 +42,12 @@ a {
 /*This is header section*/
 body {
 	background-color: #F3FFE2;
+	margin: 0;
 }
 
 #header {
 	background-color: #225378;
+	padding: 10px;
 }
 
 #header a { 
@@ -53,17 +55,70 @@ body {
 }
 /*End of header section*/
 
+/*Portfolio section*/
+.portfolio_piece {
+	width: 96%;
+	margin: 10px 2%;
+	float: left;
+	transition: .5s all;
+}
+
+.portfolio_piece h3 {
+	background-color: #eb7f00;
+	color: #F3FFE2;
+	margin: 0;
+	padding: 5px;
+	text-align: center;
+}
+
+.portfolio_piece img {
+	display: block;
+	width: 100%;
+}
+
+#portfolio {
+	background-color: #acf0f2;
+	padding: 10px;
+}
+
+/*target h3 when hovering over the hyperlink nested inside the portfolio piece*/
+.portfolio_piece a:hover h3 {
+	background-color: #F3FFE2;
+	color: #eb7f00;
+}
+
+.portfolio_piece a h3 {
+	transition: .5s all;
+}
+
+
+/*end portfolio section*/
+
+.clearfix {
+	clear: both;
+	float: none;
+}
+
+.container {
+	max-width: 960px;
+	margin: 0 auto;
+}
 
 
 
 
+@media (min-width: 700px) {
+	.portfolio_piece {
+		width: 46%;
+	}
 
+}
 
-
-
-
-
-
+@media (min-width: 960px) {
+	.portfolio_piece {
+		width: 21%;
+	}
+}
 
 
 
