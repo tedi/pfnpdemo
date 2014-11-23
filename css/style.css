@@ -15,7 +15,7 @@ p {
 	color: green;
 }
 
-#greentext {
+.greentext {
 	color: green;
 	font-weight: bold;
 }
@@ -24,17 +24,44 @@ a {
 	color: red;
 }
 
+/*Intro section*/
 #intro {
 	color: yellow;
 }
 
 #intro h1 {
-	color: yellow;
+	color: #225378;
 }
 
 #intro p{
-	color: red;
+	color: #666;
 }
+/*end intro section*/
+
+
+/*This is header section*/
+body {
+	background-color: #F3FFE2;
+}
+
+#header {
+	background-color: #225378;
+}
+
+#header a { 
+	color: #F3FFE2;
+}
+/*End of header section*/
+
+
+
+
+
+
+
+
+
+
 
 
 
